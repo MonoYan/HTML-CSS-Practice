@@ -39,7 +39,7 @@ function countUp(){
         // Round up and set counter value
         counter.innerText = `${Math.ceil(c+increment)}`
 
-        setTimeout(updateCounter, 75)
+        setTimeout(updateCounter, 50)
       }else{
         counter.innerText = target
       }
