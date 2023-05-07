@@ -12,7 +12,7 @@ Each cloned login page is contained within its own folder, with the folder name 
 
 ![Pluralsight Login page](images/Pluralsight.png)
 
-![SpaceX Homepage](images/spaceX.png)
+![SpaceX Homepage](images/SpaceX.png)
 
 Usage
 --
