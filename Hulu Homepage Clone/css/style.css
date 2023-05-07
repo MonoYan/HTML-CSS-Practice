@@ -352,7 +352,7 @@ background: linear-gradient(
 }
 /* Modal */
 .modal {
-    /* display: none; */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -367,6 +367,15 @@ background: linear-gradient(
     background: #fff;
     color: #333;
     position: relative;
+    animation: modalOpen 0.2s;
+}
+@keyframes modalOpen{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .modal-body{
